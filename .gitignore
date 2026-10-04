@@ -1,0 +1,20 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+shap_env/
+
+# Streamlit
+.streamlit/
+
+# OS
+.DS_Store
+Thumbs.db
