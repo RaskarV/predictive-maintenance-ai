@@ -1,10 +1,10 @@
-# 🔧 Predictive Maintenance AI
+# Predictive Maintenance AI
 
 An end-to-end **AI-powered Predictive Maintenance System** that uses machine sensor data to predict equipment failure, detect abnormal behavior, explain model decisions using SHAP, and generate human-readable maintenance insights using an LLM.
 
 ---
 
-## 🚀 Overview
+## Overview
 
 Unexpected machine failures can lead to production downtime, maintenance costs, and operational losses.
 
@@ -37,7 +37,7 @@ Maintenance Recommendation
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 The main objectives of this project are:
 
@@ -49,7 +49,7 @@ The main objectives of this project are:
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 The project uses a machine predictive-maintenance dataset containing sensor measurements and a binary machine-failure target.
 
@@ -91,7 +91,7 @@ Failure    : 339
 
 ---
 
-## ⚙️ Feature Engineering
+## Feature Engineering
 
 In addition to the original five sensor features, the project creates engineered features to capture relationships between machine parameters.
 
@@ -218,7 +218,7 @@ isolation_forest.decision_function()
 
 ---
 
-# 🧠 Maintenance Decision Logic
+# Maintenance Decision Logic
 
 The system combines the XGBoost failure prediction and Isolation Forest anomaly detection.
 
@@ -233,7 +233,7 @@ This provides a more informative maintenance decision than relying on a single m
 
 ---
 
-# 🔍 Explainable AI with SHAP
+# Explainable AI with SHAP
 
 The project uses **SHAP (SHapley Additive exPlanations)** to understand why the XGBoost model produces a particular prediction.
 
@@ -271,7 +271,7 @@ All had negative SHAP values for that particular prediction, meaning they pushed
 
 ---
 
-# 🧠 LLM-Based Maintenance Explanation
+# LLM-Based Maintenance Explanation
 
 The project integrates **Groq** to convert the machine-learning results into a concise explanation for a maintenance engineer.
 
@@ -312,7 +312,7 @@ The LLM is instructed to:
 
 ---
 
-# 🏗️ Project Architecture
+# Project Architecture
 
 ```text
 predictive-maintainance-ai/
@@ -340,7 +340,7 @@ predictive-maintainance-ai/
 
 ---
 
-# 📁 Project Modules
+# Project Modules
 
 ## `train_models.py`
 
@@ -513,7 +513,7 @@ Add this to `.gitignore`:
 
 ---
 
-# 🛠️ Tech Stack
+# Tech Stack
 
 ### Programming
 
@@ -546,7 +546,7 @@ Add this to `.gitignore`:
 
 ---
 
-# 📌 Example Input
+# Example Input
 
 ```python
 sensor_data = {
@@ -573,7 +573,7 @@ print(result["explanation"])
 
 ---
 
-# 📈 Example Output
+# Example Output
 
 ```text
 Failure Probability : 0.52%
@@ -597,7 +597,7 @@ The system then generates a human-readable maintenance explanation using Groq.
 
 ---
 
-# 🔄 End-to-End Workflow
+# End-to-End Workflow
 
 ```text
                  ┌───────────────────┐
@@ -645,7 +645,7 @@ The system then generates a human-readable maintenance explanation using Groq.
 
 ---
 
-# 🎯 Future Improvements
+# Future Improvements
 
 Potential future extensions include:
 
@@ -663,7 +663,7 @@ Potential future extensions include:
 
 ---
 
-# 👩‍💻 Author
+# Author
 
 **Vaishnavi Raskar**
 
@@ -672,7 +672,7 @@ Pune Institute of Computer Technology (PICT)
 
 ---
 
-## ⭐ Project Summary
+## Project Summary
 
 This project demonstrates an end-to-end **Explainable AI Predictive Maintenance System** that combines supervised learning, anomaly detection, explainable AI, and LLM-based communication.
 
