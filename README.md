@@ -154,7 +154,7 @@ Captures the interaction between tool wear and operating temperature.
 
 ---
 
-# 🤖 Machine Learning Models
+# Machine Learning Models
 
 ## 1. XGBoost
 
